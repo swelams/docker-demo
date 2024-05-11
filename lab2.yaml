@@ -1,0 +1,29 @@
+1-run container named blue-app-nti using 
+image kodeKloud/simple-webapp override env variable APP_COLOR to blue 
+open the app on port 38282 on host and route to 8080 on container 
+
+
+
+
+2-create new Dockerfile based on nginx image 
+then copy new html file from local to container 
+and make it exposed on another port than port 80 
+
+
+3-dockerize react app into one image and another 
+image using multistage dockerfile  then prove that multistage is less in size 
+
+
+
+4-Create new volume called sprint-volume and attache it
+ to mysql database container then Create new mysql container 
+ and attach it to previous volume 
+
+
+
+5-Use docker compose to deploy ghost platform (image: ghost:1-alpine), 
+Use mysql database instead of sqlite
+
+
+
+
